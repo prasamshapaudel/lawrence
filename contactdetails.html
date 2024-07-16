@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+
+<body>
+    <h1>Enter your details here</h1>
+    <form action=""> <!--Backend part ma input gareko kata jani bhanera action hunxa-->
+        <label for="">First Name:</label>
+        <input type="text" name="First name" value="Anerchomenos"><br><br> <!--inline elements-->
+        <label for="">Second Name:</label>
+        <input type="text" name="Second name"><br><br> <!--name serves as url wala thing and value le chai by default tyo name ko box ma value dinxa type text ma-->
+        <label for="">Age:</label><input type="number"><br><br>
+
+        <label for="">Date of Birth:</label><input type="date"><br><br>
+
+        <label for="Em"> Enter your email:</label><input id="Em" type="email"><br><br>  <!--Email bhanni text ma thicheni box ma cursor pugxa label ra for le , else diff find out garnu xa bhanet try removing too-->
+
+        <label for="">Enter your password:</label><input type="password"><br><br>
+        <p>Enter your Tshirt size</p>
+        <input id="small" name="tshirtSize" type="radio" value="small">
+        <label for="small">Small</label><br>
+        <!--name= wala le euta matra option select garauxa-->
+        <input id="M" name="tshirtSize" type="radio" value="medium">
+        <label for="M">Medium</label><br>
+        <input id="L" name="tshirtSize" type="radio" value="large">
+        <!--id ra for same hunu parxa yesle chai small bhanni text ma select gareni radio button select garxa. for ra id bhayena bhaner radiio button ma matra thcheci select hunxa-->
+        <label for="L">Large</label><br>
+        <input id="E" name="tshirtSize" type="radio" value="extra large">
+        <label for="E">Extra Large</label><br><br>
+
+        <label for="color">Your favourite color:</label>
+        <input id="color"  type="color"><br>
+
+        <input type="reset">  <!--whole form reset hunxa--><br><br>
+        <input type="submit">
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
